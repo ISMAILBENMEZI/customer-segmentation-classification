@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Youcode/Desktop/customer-segmentation-classification/mlruns/1/models/m-3d04909931ed4bea8151d386b8616358/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.14
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.17.0
+model_id: m-3d04909931ed4bea8151d386b8616358
+model_size_bytes: 128451
+model_uuid: m-3d04909931ed4bea8151d386b8616358
+prompts: null
+run_id: 61f2af35616d4ee3bae758f50fa2f6ca
+utc_time_created: '2026-10-09 15:31:02.511634'
